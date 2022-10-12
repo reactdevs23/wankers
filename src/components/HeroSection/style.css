@@ -1,0 +1,149 @@
+.image1 {
+  margin-right: -75px;
+}
+/* .image1 {
+  display: rightk;
+  margin-left: -80px;
+} */
+.image4 {
+  margin-left: -50px;
+}
+.image5 {
+  margin-left: -50px;
+}
+.image6 {
+  margin-left: -45px;
+}
+.image7 {
+  margin-left: -45px;
+}
+@media only screen and (max-width: 1920px) {
+  .image1 {
+    margin-right: -75px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .image1 {
+    margin-right: -60px;
+  }
+  .image4 {
+    margin-left: -35px;
+  }
+  .image5 {
+    margin-left: -35px;
+  }
+  .image6 {
+    margin-left: -35px;
+  }
+  .image7 {
+    margin-left: -35px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .image1 {
+    margin-right: -45px;
+  }
+  .image4 {
+    margin-left: -25px;
+  }
+  .image5 {
+    margin-left: -25px;
+  }
+  .image6 {
+    margin-left: -25px;
+  }
+  .image7 {
+    margin-left: -25px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .image1 {
+    margin-right: -40px;
+  }
+  .image4 {
+    margin-left: -20px;
+  }
+  .image5 {
+    margin-left: -20px;
+  }
+  .image6 {
+    margin-left: -20px;
+  }
+  .image7 {
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .image1 {
+    margin-right: -30px;
+  }
+  .image4 {
+    margin-left: -16px;
+  }
+  .image5 {
+    margin-left: -16px;
+  }
+  .image6 {
+    margin-left: -16px;
+  }
+  .image7 {
+    margin-left: -16px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .image1 {
+    margin-right: -22px;
+  }
+  .image4 {
+    margin-left: -10px;
+  }
+  .image5 {
+    margin-left: -10px;
+  }
+  .image6 {
+    margin-left: -10px;
+  }
+  .image7 {
+    margin-left: -10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .image1 {
+    margin-right: -16px;
+  }
+  .image4 {
+    margin-left: -8px;
+  }
+  .image5 {
+    margin-left: -8px;
+  }
+  .image6 {
+    margin-left: -8px;
+  }
+  .image7 {
+    margin-left: -8px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .image1 {
+    margin-right: -12px;
+  }
+  .image4 {
+    margin-left: -5px;
+  }
+  .image5 {
+    margin-left: -5px;
+  }
+  .image6 {
+    margin-left: -5px;
+  }
+  .image7 {
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .image1 {
+    margin-right: -75px;
+  }
+}

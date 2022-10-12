@@ -1,0 +1,214 @@
+.heroSection {
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  max-width: 1500px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.title {
+  font-family: "Bloody Terror";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #424242;
+  min-height: 100px;
+}
+.DandE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.andE {
+  margin-right: 10px;
+}
+.dee {
+  margin-left: 20px;
+}
+.deeImage {
+  display: block;
+  width: 93.5px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.imageContainer {
+  position: relative;
+}
+
+.blackImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.shrinkImage {
+  margin-left: -25px;
+}
+.topCircle {
+  background: rgba(255, 209, 183, 0.2);
+  filter: blur(500px);
+  width: 50%;
+
+  position: absolute;
+  left: 0;
+  top: -10%;
+  z-index: -1;
+}
+.bottomCircle {
+  background: rgba(255, 209, 183, 0.2);
+  filter: blur(500px);
+  width: 50%;
+
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1600px) {
+  .image {
+    display: block;
+    width: 200px;
+    height: 290px;
+  }
+  .deeImage {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .image {
+    display: block;
+    width: 160px;
+    height: 250px;
+  }
+  .deeImage {
+    width: 52px;
+  }
+  .shrinkImage {
+    margin-left: -15px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .image {
+    display: block;
+    width: 135px;
+    height: 200px;
+  }
+  .deeImage {
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .title {
+    font-size: 24px;
+  }
+  .image {
+    display: block;
+    width: 120px;
+    height: 190px;
+  }
+  .deeImage {
+    width: 38px;
+  }
+  .andE {
+    margin-left: 10px;
+  }
+  .dee {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .image {
+    display: block;
+    width: 110px;
+    height: 170px;
+  }
+  .deeImage {
+    width: 35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .image {
+    display: block;
+    width: 100px;
+    height: 160px;
+  }
+  .deeImage {
+    width: 32px;
+  }
+  .shrinkImage {
+    margin-left: -10px;
+  }
+  .DandE {
+    margin-right: 8px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .title {
+    font-size: 20px;
+  }
+  .image {
+    display: block;
+    width: 75px;
+    height: 130px;
+  }
+  .deeImage {
+    width: 24px;
+  }
+  .shrinkImage {
+    margin-left: -10px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .image {
+    display: block;
+    width: 60px;
+    height: 115px;
+  }
+  .deeImage {
+    width: 23px;
+  }
+  .shrinkImage {
+    margin-left: -5px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .image {
+    display: block;
+    width: 45px;
+    height: 100px;
+  }
+  .deeImage {
+    width: 20px;
+  }
+  .shrinkImage {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .image {
+    display: block;
+    width: 38px;
+    height: 80px;
+  }
+  .deeImage {
+    width: 16px;
+  }
+  .shrinkImage {
+    margin-left: 0px;
+  }
+} ;

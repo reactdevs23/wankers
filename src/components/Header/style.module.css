@@ -1,0 +1,132 @@
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.navItem {
+  font-family: "The crot blood";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
+}
+.active {
+  color: #e58d3c;
+}
+.socialContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icon {
+  font-size: 28px;
+}
+.insta {
+  border-radius: 12px;
+}
+.hamburger {
+  display: none;
+}
+.topCircle {
+  background: rgba(255, 209, 183, 0.2);
+  filter: blur(500px);
+  width: 50%;
+
+  position: absolute;
+  left: 0;
+  top: -10%;
+  z-index: -1;
+}
+.bottomCircle {
+  background: rgba(255, 209, 183, 0.2);
+  filter: blur(500px);
+  width: 50%;
+
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+  z-index: -1;
+}
+@media only screen and (max-width: 991px) {
+  .navItems {
+    display: none;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 120px;
+    left: 0;
+    z-index: 50;
+    background: #fcf9f9;
+    min-height: 100%;
+  }
+  .navBar {
+    gap: 30px;
+  }
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .logo {
+    width: 140px;
+  }
+  .navBar {
+    gap: 15px;
+  }
+  .socialContainer {
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .logo {
+    width: 120px;
+  }
+  .navBar {
+    gap: 15px;
+  }
+  .socialContainer {
+    gap: 10px;
+  }
+  .icon {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .headers {
+    width: 1600px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .headers {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+}
